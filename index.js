@@ -5,7 +5,7 @@ var express = require('express');
 var ParseServer = require('parse-server').ParseServer;
 var path = require('path');
 
-var databaseUri = 'mongodb://adminkuku:;
+var databaseUri = 'mongodb://adminkuku:kuku;
 
 if (!databaseUri) {
   console.log('DATABASE_URI not specified, falling back to localhost.');

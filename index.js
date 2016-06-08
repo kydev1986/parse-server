@@ -7,8 +7,8 @@ var path = require('path');
 
 var databaseUri = 'mongodb://adminkuku:kuku1688@ds051953.mlab.com:51953/testkuku';
 
-// (!databaseUri) {
-  console.log('DATABASE_URI not specified, falling back to localhost.');
+/if (!databaseUri) {
+//  console.log('DATABASE_URI not specified, falling back to localhost.');
 }
 
 var api = new ParseServer({
